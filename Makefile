@@ -6,7 +6,7 @@
 #    By: dimbrea <dimbrea@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 14:46:38 by vfuhlenb          #+#    #+#              #
-#    Updated: 2023/01/30 11:36:20 by dimbrea          ###   ########.fr        #
+#    Updated: 2023/01/30 11:39:01 by dimbrea          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ SHELL	= /bin/sh
 
 NAME =	cub3D
 
-OBJECTS = $(subst .c,.o,$(SOURCES))
+OBJECTS = $(subst .c,.o,$(SRCS))
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror -g
