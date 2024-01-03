@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: dimbrea <dimbrea@student.42.fr>            +#+  +:+       +#+         #
+#    By: dodo <dodo@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 14:46:38 by vfuhlenb          #+#    #+#              #
-#    Updated: 2023/01/30 11:39:01 by dimbrea          ###   ########.fr        #
+#    Updated: 2024/01/03 11:45:18 by dodo             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,8 +20,8 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Werror -g
 MINILIBX_DIR	= src/inc/mlx
 LIBFT_DIR		= src/inc/libft
-X11_INC			= /usr/X11/include
-X11_LIB			= /usr/X11/lib
+X11_INC			= /usr/include
+X11_LIB			= /usr/lib
 
 LFLAGS 			= -L${LIBFT_DIR} -L${MINILIBX_DIR} -L${X11_LIB} -lmlx -lXext -lX11 -lft -lm
 
