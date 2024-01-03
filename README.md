@@ -1,5 +1,7 @@
 # 3D Rendering Raycasting Wolfenstein
 
+![Screenshot from 2024-01-03 11-46-41](https://github.com/Dragoshiz/3D-Rendering-Raycasting-Wolfenstein-/assets/61502947/1e838b78-1d9d-4096-afc2-e996f8509eea)
+
 ## Introduction
 This project is a 3D rendering engine built using raycasting techniques, inspired by classic games like Wolfenstein 3D. It's designed to demonstrate the basics of 3D graphics in a simple and understandable way.
 
