@@ -32,7 +32,7 @@ The map is represented by a grid of characters where each character has a specif
 To customize the layout of your map, edit the grid in the configuration file (or where the map is defined) using `1` and `0` to design the walls and open spaces. Here's an example of a simple map layout:<br>
 1111111111111111111111111<br>
 1000000000000000000000001<br>
-1011000111110111111100111<br>  
+1011000111110111111100111<br>
 1001000000110000000000001<br>
 1111111110111111111111111<br>  
   
@@ -46,12 +46,11 @@ For example:
 - `NO` stands for North-facing walls. To change the texture, replace the file path after `NO` with the path to your new texture.
 - `EA` stands for East-facing walls, and so on.
 
-Here's the syntax for changing wall textures:
-
-NO path/to/your/northwall_texture.xpm
-EA path/to/your/eastwall_texture.xpm
-WE path/to/your/westwall_texture.xpm
-SO path/to/your/southwall_texture.xpm
+Here's the syntax for changing wall textures:<br>
+NO path/to/your/northwall_texture.xpm<br>
+EA path/to/your/eastwall_texture.xpm<br>
+WE path/to/your/westwall_texture.xpm<br>
+SO path/to/your/southwall_texture.xpm<br>
 
 Replace `path/to/your/texture.xpm` with the actual path to the `.xpm` image you want to use as the texture for that direction's walls.
 
