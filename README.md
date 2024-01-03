@@ -29,13 +29,13 @@ The map is represented by a grid of characters where each character has a specif
 - `1` represents a wall block.
 - `0` represents an empty space that players can move through.
 
-To customize the layout of your map, edit the grid in the configuration file (or where the map is defined) using `1` and `0` to design the walls and open spaces. Here's an example of a simple map layout:
-1111111111111111111111111
-1000000000000000000000001
-1011000111110111111100111
-1001000000110000000000001
-1111111110111111111111111
-
+To customize the layout of your map, edit the grid in the configuration file (or where the map is defined) using `1` and `0` to design the walls and open spaces. Here's an example of a simple map layout:  
+1111111111111111111111111  
+1000000000000000000000001  
+1011000111110111111100111  
+1001000000110000000000001  
+1111111110111111111111111  
+  
 (The map has to have closed walls)
 
 
