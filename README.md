@@ -72,3 +72,6 @@ Change these values to any RGB color combination to customize the appearance of 
 ## Usage
 Run executable with the map design of your choice as argument (has to have .cub extension):
 - ./cub3D big_map.cub
+
+## Acknowledgments
+Special thanks to my partner in this project @minthe
