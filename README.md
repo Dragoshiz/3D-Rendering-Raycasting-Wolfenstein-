@@ -24,7 +24,7 @@ Before installing, make sure your system has the necessary libraries. Run:
 ## Customizing the Map
 
 ### Map Design
-[Screenshot from 2024-01-03 11-56-59](https://github.com/Dragoshiz/3D-Rendering-Raycasting-Wolfenstein-/assets/61502947/5befa6b9-7fdf-4937-b3a2-66ad092a47f1)
+![Screenshot from 2024-01-03 11-56-59](https://github.com/Dragoshiz/3D-Rendering-Raycasting-Wolfenstein-/assets/61502947/5befa6b9-7fdf-4937-b3a2-66ad092a47f1)
 The map is represented by a grid of characters where each character has a specific meaning:
 - `1` represents a wall block.
 - `0` represents an empty space that players can move through.
