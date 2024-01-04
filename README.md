@@ -11,18 +11,22 @@ This project is a 3D rendering engine built using raycasting techniques, inspire
 
 ## Prerequisites
 Before installing, make sure your system has the necessary libraries. Run:
-- sudo apt-get update && sudo apt-get install xorg libxext-dev zlib1g-dev libbsd-dev
-
+```
+sudo apt-get update && sudo apt-get install xorg libxext-dev zlib1g-dev libbsd-dev
+```
 ## Installation
 1. Clone the repository:
-- git clone https://github.com/Dragoshiz/3D-Rendering-Raycasting-Wolfenstein-
-
+```
+git clone https://github.com/Dragoshiz/3D-Rendering-Raycasting-Wolfenstein-
+```
 2. Navigate to the project directory:
-- cd 3D-Rendering-Raycasting-Wolfenstein-
-
+```
+cd [project-directory]
+```
 3. Compile the project:
-- make
-
+```
+make
+```
 ## Customizing the Map
 
 ### Map Design
@@ -32,12 +36,13 @@ The map is represented by a grid of characters where each character has a specif
 - `0` represents an empty space that players can move through.
 
 To customize the layout of your map, edit the grid in the configuration file (or where the map is defined) using `1` and `0` to design the walls and open spaces. Here's an example of a simple map layout:<br>
-1111111111111111111111111<br>
-1000000000000000000000001<br>
-1011000111110111111100111<br>
-1001000000110000000000001<br>
-1111111110111111111111111<br>  
-  
+```
+1111111111111111111111111
+1000000000000000000000001
+1011000111110111111100111
+1001000000110000000000001
+1111111110111111111111111  
+```
 (The map has to have closed walls)
 
 
@@ -49,11 +54,12 @@ For example:
 - `EA` stands for East-facing walls, and so on.
 
 Here's the syntax for changing wall textures:<br>
-NO path/to/your/northwall_texture.xpm<br>
-EA path/to/your/eastwall_texture.xpm<br>
-WE path/to/your/westwall_texture.xpm<br>
-SO path/to/your/southwall_texture.xpm<br>
-
+```
+NO path/to/your/northwall_texture.xpm
+EA path/to/your/eastwall_texture.xpm
+WE path/to/your/westwall_texture.xpm
+SO path/to/your/southwall_texture.xpm
+```
 Replace `path/to/your/texture.xpm` with the actual path to the `.xpm` image you want to use as the texture for that direction's walls.
 
 ### Floor and Ceiling Colors
@@ -63,15 +69,17 @@ You can also customize the floor and ceiling colors using RGB values:
 - `C` stands for the ceiling color, followed by its RGB values.
 
 For example:
-
+```
 F 128,128,128 # This sets the floor color to a grey shade.
 C 50,50,255 # This sets the ceiling color to a shade of blue.
-
+```
 Change these values to any RGB color combination to customize the appearance of the floor and ceiling in your game.
 
 ## Usage
 Run executable with the map design of your choice as argument (has to have .cub extension):
-- ./cub3D big_map.cub
-
+```
+./cub3D big_map.cub
+```
 ## Acknowledgments
-Special thanks to my partner in this project @minthe
+Special thanks to my partner for this project:
+- [Valentin](https://github.com/minthe)
